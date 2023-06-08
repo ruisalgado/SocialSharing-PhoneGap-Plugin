@@ -508,7 +508,6 @@ public class SocialSharing extends CordovaPlugin {
   private static final Map<String, String> MIME_Map = new HashMap<String, String>();
   static {
     MIME_Map.put("3gp",   "video/3gpp");
-    MIME_Map.put("apk",   "application/vnd.android.package-archive");
     MIME_Map.put("asf",   "video/x-ms-asf");
     MIME_Map.put("avi",   "video/x-msvideo");
     MIME_Map.put("bin",   "application/octet-stream");
